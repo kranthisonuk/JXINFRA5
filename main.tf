@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "eks-jx" {
-  source               = "https://registry.terraform.io/modules/jenkins-x/eks-jx/aws"
+  source               = "jenkins-x/eks-jx/aws"
   version              = "1.15.12"
   cluster_version      = var.cluster_version
   region               = var.region
