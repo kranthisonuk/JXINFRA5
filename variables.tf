@@ -15,7 +15,7 @@ variable "profile" {
 variable "cluster_version" {
   description = "Kubernetes version to use for the EKS cluster."
   type        = string
-  default     = 1.15.38
+  default     = "1.15.38"
 }
 
 variable "vault_user" {
